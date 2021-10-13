@@ -18,9 +18,9 @@ const Signup = () => {
 
                  <div className='form'>
                     <form onSubmit={handleRegistration}>
-                        <input onBlur={handleNameChange} className='my-2 input-btn' type="text" name="" id="1" placeholder="Name"/>
+                        <input onBlur={handleNameChange} className='my-2 input-btn' type="text" name="email" id="1" placeholder="Name"/>
                         <br /> 
-                        <input onBlur={handleEmailChange}  className='my-2 input-btn' type="email" name="" id="2" placeholder='Email'/>
+                        <input onBlur={handleEmailChange}  className='my-2 input-btn' type="email" name="password" id="2" placeholder='Email'/>
                         <br />
                         <input onBlur={handlePasswordChange} className='my-2 input-btn' type="password" name="" id="3" placeholder='Password' />
                         <br />

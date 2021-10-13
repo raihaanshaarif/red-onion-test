@@ -15,6 +15,7 @@ const useFirebase = () => {
 
     const handleNameChange= (e) => {
         setName(e.target.value)
+        console.log(name, email, password);
     }
     const handleEmailChange = (e) => {
         setEmail(e.target.value)
