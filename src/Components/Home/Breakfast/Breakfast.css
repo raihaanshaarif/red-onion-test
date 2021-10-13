@@ -1,0 +1,13 @@
+.product-img{
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.product-card{
+    border: none;
+    width: 80%;
+}
+.product-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

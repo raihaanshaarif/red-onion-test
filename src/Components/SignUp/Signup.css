@@ -1,0 +1,20 @@
+.signup-logo{
+    width: 100px;
+}
+.form{
+    padding-top: 30px;
+    
+    margin: 0 auto;
+}
+.input-btn{
+    width: 400px;
+    height: 54px;
+    border: none;
+    background: rgb(245, 245, 245);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.submit-btn{
+    width: 400px;
+    height: 54px;
+}
